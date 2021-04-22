@@ -29,6 +29,6 @@ export const getStaticProps: GetStaticProps  = async () => {
 		props: {
 			episodes: data,
 		},
-		revalidate: 60 * 60 * 8,
+		revalidate: 60 * 60 * 6,
 	}
 }
