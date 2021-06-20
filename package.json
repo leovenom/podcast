@@ -1,20 +1,21 @@
 {
-  "name": "poscastr-next",
+  "name": "podcasternext",
   "version": "0.1.0",
-  "private": true,
+  "description": "Fancy Next.js app",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "server": "json-server db.json -w -d 750 -p 3333"
+    "build:static": "next build && next out",
+    "server": "json-server server.json -w -d 750 -p 3333"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "date-fns": "^2.21.1",
-    "next": "10.1.3",
+    "next": "^10.1.4-canary.12",
     "rc-slider": "^9.7.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "sass": "^1.32.11",
     "yarn": "^1.22.10"
   },
