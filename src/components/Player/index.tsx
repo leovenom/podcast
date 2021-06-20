@@ -76,7 +76,7 @@ export function Player() {
       {/* Se existir o epsodio mostrar isso se não existir mostrar "Selecione um podcast para ouvir" */}
       { episode ? (
         <div className={styles.currentEpisode}>
-          <Image 
+          <Image
             width={592}
             height={592}
             src={episode.thumbnail}
@@ -89,7 +89,7 @@ export function Player() {
         <div className={styles.emptyPlayer}>
           <strong>Selecione um podcast para ouvir</strong>
         </div>
-      )}
+      ) }
 
                         {/* casso eu não tenha um epsodio */}
       <footer className={ !episode ? styles.empty : ''}> 

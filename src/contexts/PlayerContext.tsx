@@ -3,6 +3,7 @@ import { createContext, useState, ReactNode, useContext } from 'react';
 type Episode = {
     title: string;
     members: string;
+    thumbnail: string;
     duration: number;
     url: string;
 };
@@ -51,7 +52,7 @@ export function PlayerContextProvider({ children }: PlayerContextProviderProps) 
         setIsPlaying(true);
     };
 
-    // togglePlay - se ele tiver tocando eu pauso se ele tiver pausado eu toco.
+            // togglePlay - se ele tiver tocando eu pauso se ele tiver pausado eu toco.
     function togglePlay() {
                     // trocar o valor para o contrario dela !(negação)
         setIsPlaying(!isPlaying);
