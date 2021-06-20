@@ -1,33 +1,40 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-eef578260fd80f8fff94.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/1Uk0ZzPwivUvyE5Mv8MC-/_buildManifest.js",
+    "static/1Uk0ZzPwivUvyE5Mv8MC-/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-189c53927ffd3caf09c3.js",
+      "static/chunks/framework-64eb7138163e04c228e4.js",
+      "static/chunks/main-889496495dbcfcafb08f.js",
+      "static/css/42bfe75943b71bff9965.css",
+      "static/chunks/pages/index-2f77c11f722c55f5d292.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-189c53927ffd3caf09c3.js",
+      "static/chunks/framework-64eb7138163e04c228e4.js",
+      "static/chunks/main-889496495dbcfcafb08f.js",
+      "static/css/ab913b64834dc376d9f7.css",
+      "static/chunks/pages/_app-bdf80a193bca945d54b5.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-189c53927ffd3caf09c3.js",
+      "static/chunks/framework-64eb7138163e04c228e4.js",
+      "static/chunks/main-889496495dbcfcafb08f.js",
+      "static/chunks/pages/_error-e69890b6db18dcbc6fa4.js"
+    ],
+    "/episodes/[slug]": [
+      "static/chunks/webpack-189c53927ffd3caf09c3.js",
+      "static/chunks/framework-64eb7138163e04c228e4.js",
+      "static/chunks/main-889496495dbcfcafb08f.js",
+      "static/css/d6b23c32d30aca09a348.css",
+      "static/chunks/pages/episodes/[slug]-53ae23c6f073a8fd726d.js"
     ]
   },
   "ampFirstPages": []
