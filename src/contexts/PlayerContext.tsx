@@ -3,6 +3,7 @@ import { createContext, useState, ReactNode, useContext } from 'react';
 type Episode = {
     title: string;
     members: string;
+    thumbnail: string;
     duration: number;
     url: string;
 };
