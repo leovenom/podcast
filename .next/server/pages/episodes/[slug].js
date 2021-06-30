@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1664);
 /* harmony import */ var _contexts_PlayerContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1983);
-/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1224);
+/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3434);
 /* harmony import */ var _utils_convertDurationToTimeString__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4005);
 /* harmony import */ var _episode_module_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8904);
 /* harmony import */ var _episode_module_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_episode_module_scss__WEBPACK_IMPORTED_MODULE_7__);
@@ -146,27 +146,6 @@ const getStaticProps = async ctx => {
 
 /***/ }),
 
-/***/ 1224:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "h": function() { return /* binding */ api; }
-});
-
-;// CONCATENATED MODULE: external "axios"
-var external_axios_namespaceObject = require("axios");;
-var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_namespaceObject);
-;// CONCATENATED MODULE: ./src/services/api.ts
-
-const api = external_axios_default().create({
-  baseURL: process.env.API_URL || 'http://localhost:3333'
-});
-
-/***/ }),
-
 /***/ 8904:
 /***/ (function(module) {
 
@@ -180,11 +159,27 @@ module.exports = {
 
 /***/ }),
 
+/***/ 2376:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("axios");;
+
+/***/ }),
+
 /***/ 3879:
 /***/ (function(module) {
 
 "use strict";
 module.exports = require("date-fns");;
+
+/***/ }),
+
+/***/ 2804:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("json-server");;
 
 /***/ }),
 
@@ -250,13 +245,6 @@ module.exports = require("react");;
 "use strict";
 module.exports = require("react/jsx-runtime");;
 
-/***/ }),
-
-/***/ 4453:
-/***/ (function() {
-
-/* (ignored) */
-
 /***/ })
 
 };
@@ -266,7 +254,7 @@ module.exports = require("react/jsx-runtime");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, [943,999,664,543], function() { return __webpack_exec__(1083); });
+var __webpack_exports__ = __webpack_require__.X(0, [943,999,664,543,297], function() { return __webpack_exec__(1083); });
 module.exports = __webpack_exports__;
 
 })();
