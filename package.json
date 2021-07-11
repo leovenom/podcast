@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    // "start": "next start",
-    "start": "next index.tsx",
+    "start": "next start",
     "server": "json-server db.json -w -d 750 -p 3333"
   },
   "dependencies": {
