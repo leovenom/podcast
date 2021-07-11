@@ -13,7 +13,7 @@ import { usePlayer } from '../contexts/PlayerContext';
 
 const express = require("express");
 const app = express();
-const importData = require("../db.json")
+const importData = require("../../db.json")
 
 app.get("/", (req,res) => {
 	res.send(importData);
