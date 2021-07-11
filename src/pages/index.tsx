@@ -10,6 +10,16 @@ import { convertDurationToTimeString } from '../utils/convertDurationToTimeStrin
 import styles from './home.module.scss';
 import { usePlayer } from '../contexts/PlayerContext';
 
+
+const express = require("express");
+const app = express();
+const importData = require("../db.json")
+
+app.get("/", (req,res) => {
+	res.send(importData);
+}):
+
+
 type Episode = {
 	id: string;
 	title: string;
