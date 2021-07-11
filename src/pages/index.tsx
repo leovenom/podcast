@@ -17,7 +17,7 @@ const importData = require("../db.json")
 
 app.get("/", (req,res) => {
 	res.send(importData);
-}):
+});
 
 
 type Episode = {
