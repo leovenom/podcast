@@ -2,6 +2,8 @@
   "name": "podcasternext",
   "version": "0.1.0",
   "description": "Fancy Next.js app",
+  "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
