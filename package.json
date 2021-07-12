@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node db.json",
+    "start": "NODE_ENV=production node db.js",
     "export": "next build && next export",
-    "server": "json-server db.json -w -d 750 -p 3333"
+    "server": "json-server db.js -w -d 750 -p 3333"
   },
   "dependencies": {
     "axios": "^0.21.1",
